@@ -80,17 +80,16 @@ export default function HomePage({ params }: HomePageProps) {
       <Navigation locale={params.locale} />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 lg:pt-0">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/heroafritake.jpg"
-            alt="African Cityscape"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-black/40" />
-        </div>
+      <section
+  className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 lg:pt-0"
+  style={{
+    backgroundImage: 'url("/images/heroafritake.jpg")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  }}
+>
+  <div className="absolute inset-0 bg-black/40 z-0" />
 
         <motion.div
           className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] lg:min-h-screen"
