@@ -143,7 +143,7 @@ export default function Navigation({ locale }: NavigationProps) {
           </Link>
 
           {/* Hamburger Menu */}
-          <button className="text-[#17472F] p-2" onClick={() => setIsOpen(!isOpen)}>
+          <button className="text-[#E3AE2C] p-2" onClick={() => setIsOpen(!isOpen)}>
             <motion.div animate={{ rotate: isOpen ? 180 : 0 }} transition={{ duration: 0.3 }}>
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </motion.div>
