@@ -40,7 +40,7 @@ export default function Footer({ locale }: FooterProps) {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Mail className="h-4 w-4 md:h-5 md:w-5 mr-3 text-[#E3AE2C]" />
-                <span className="text-sm md:text-base">info@afritake.et</span>
+                <span className="text-sm md:text-base">info@afritake.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 md:h-5 md:w-5 mr-3 text-[#E3AE2C]" />

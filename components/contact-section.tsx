@@ -180,8 +180,8 @@ ${formData.name}`
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#17472F]">{t.email}</h4>
-                    <p className="text-[#2D2D2D] text-sm md:text-base">info@afritake.et</p>
-                    <p className="text-[#2D2D2D] text-sm md:text-base">sales@afritake.et</p>
+                    <p className="text-[#2D2D2D] text-sm md:text-base">info@afritake.com</p>
+                    {/* <p className="text-[#2D2D2D] text-sm md:text-base">sales@afritake.et</p> */}
                   </div>
                 </div>
 
@@ -191,8 +191,8 @@ ${formData.name}`
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#17472F]">{t.phone}</h4>
-                    <p className="text-[#2D2D2D] text-sm md:text-base">+251 11 123 4567</p>
-                    <p className="text-[#2D2D2D] text-sm md:text-base">+251 91 234 5678</p>
+                    <p className="text-[#2D2D2D] text-sm md:text-base">+251 90 701 0100</p>
+                    {/* <p className="text-[#2D2D2D] text-sm md:text-base">+251 91 234 5678</p> */}
                   </div>
                 </div>
 
@@ -203,7 +203,7 @@ ${formData.name}`
                   <div>
                     <h4 className="font-semibold text-[#17472F]">{t.address}</h4>
                     <p className="text-[#2D2D2D] text-sm md:text-base">
-                      Bole Road, Atlas Building
+                      Gerji, 
                       <br />
                       Addis Ababa, Ethiopia
                       <br />
