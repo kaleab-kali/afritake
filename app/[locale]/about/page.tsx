@@ -37,7 +37,7 @@ export default function AboutPage({ params }: AboutPageProps) {
 
   const timelineEvents: TimelineEvent[] = [
     {
-      year: "2000-2006",
+      year: "2004-2013",
       title: t.lomyadTitle,
       description: t.lomyadDescription,
       icon: Building2,
@@ -496,7 +496,7 @@ export default function AboutPage({ params }: AboutPageProps) {
                       alt={founder.name}
                       width={300}
                       height={300}
-                      className="w-full h-48 lg:h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-48 lg:h-64 object-contain group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <CardContent className="p-4 lg:p-6 text-center">

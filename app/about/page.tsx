@@ -232,7 +232,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <Footer />
+      <Footer locale={params.locale} />
     </div>
   )
 }
