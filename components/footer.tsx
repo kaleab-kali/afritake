@@ -112,8 +112,8 @@ export default function Footer({ locale }: FooterProps) {
                 <MessageCircle className="h-4 w-4 mr-2 text-[#E3AE2C] mt-0.5" />
                 <div className="text-left">
                   <p className="text-xs text-gray-300 font-medium">WhatsApp</p>
-                  <p className="text-xs text-gray-300">+251 907 011 000</p>
-                  <p className="text-xs text-gray-300">+44 20 7946 0958</p>
+                  <p className="text-xs text-gray-300">+1 (704) 604-3202</p>
+                  <p className="text-xs text-gray-300">+44 7958 490 178</p>
                 </div>
               </div>
 
@@ -228,8 +228,8 @@ export default function Footer({ locale }: FooterProps) {
                 <MessageCircle className="h-4 w-4 mr-3 text-[#E3AE2C] mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-gray-300 font-medium">WhatsApp</p>
-                  <p className="text-sm text-gray-300">+251 907 011 000</p>
-                  <p className="text-sm text-gray-300">+44 20 7946 0958</p>
+                  <p className="text-sm text-gray-300">+1 (704) 604-3202</p>
+                  <p className="text-sm text-gray-300">+44 7958 490 178</p>
                 </div>
               </div>
 
