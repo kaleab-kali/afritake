@@ -37,7 +37,7 @@ export default function AboutPage({ params }: AboutPageProps) {
 
   const timelineEvents: TimelineEvent[] = [
     {
-      year: "2004-2013",
+      year: "2004",
       title: t.lomyadTitle,
       description: t.lomyadDescription,
       icon: Building2,
@@ -51,7 +51,7 @@ export default function AboutPage({ params }: AboutPageProps) {
       color: "#17472F"
     },
     {
-      year: "2020",
+      year: "2025",
       title: t.afritakeTitle,
       description: t.afritakeDescription,
       icon: Globe,
@@ -364,17 +364,19 @@ export default function AboutPage({ params }: AboutPageProps) {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div variants={fadeInUp} initial="initial" whileInView="animate" viewport={{ once: true }}>
-              <h3 className="text-2xl font-bold text-[#17472F] mb-6 text-center lg:text-left">About AFRITAKE</h3>
+              <h3 className="text-2xl font-bold text-[#17472F] mb-6 text-center lg:text-left">About Us</h3>
               <p className="text-lg text-[#2D2D2D] leading-relaxed mb-6 text-center lg:text-left">
-                AFRITAKE is a dynamic African company dedicated to taking Africa to the world through innovative products, 
-                reliable partnerships, and unwavering commitment to quality. We specialize in connecting African excellence 
-                with global markets, offering a diverse range of products designed specifically for African conditions 
-                and international standards.
+                AfriTake Sourcing & Construction is a trusted local Ethiopian team with over 20 years of experience in importing goods from around the world and delivering top-quality construction finishing services. We take contracts from building owners to complete unfinished residential and commercial properties—specializing in kitchen cabinets, tile flooring, interior doors and windows, full bathroom and basement finishes, and elevator repair.
+              </p>
+              <p className="text-lg text-[#2D2D2D] leading-relaxed mb-6 text-center lg:text-left">
+                In addition to construction, we are a reliable global sourcing partner. We have long-standing relationships with suppliers from China, Turkey, India, Malaysia, Singapore, Vietnam, the USA, the UK, Europe, UAE and Thailand. These partnerships allow us to offer our clients high-quality products—such as furniture and fixtures—at better prices than most online suppliers.
+              </p>
+              <p className="text-lg text-[#2D2D2D] leading-relaxed mb-6 text-center lg:text-left">
+                Thanks to our efficient service and strong supplier network, many of our clients have been working with us for years. We handle everything from purchasing and shipping to final delivery and installation, ensuring a smooth, stress-free experience.
               </p>
               <p className="text-lg text-[#2D2D2D] leading-relaxed text-center lg:text-left">
-                Our product portfolio includes the revolutionary TireMax Professional Series, construction materials, 
-                automotive parts, and industrial supplies - all engineered to meet the unique challenges of African 
-                terrain and climate while maintaining world-class quality standards.
+                Time is life. Time is money. AfriTake helps you save both.<br/>
+                With just a small cost, you save big—on time, money, and peace of mind.
               </p>
             </motion.div>
 
